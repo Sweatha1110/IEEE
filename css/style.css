@@ -4,6 +4,10 @@ body
     font-family: 'Outfit', sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
 /* HOME SECTION */
 
 #home
@@ -110,3 +114,100 @@ nav
     }
 
 }
+
+
+/* syed javith footer and about us */
+
+.footer-hr{
+    width: 40%; 
+     border-bottom: 2px solid #FFDF00;
+     opacity: 1;
+     border-top: 0;
+}
+.footer-li{
+    padding-left: 0;
+    list-style-type: none;
+}
+footer .column {
+    padding: 30px;
+}
+.footer-icons{
+    padding: 5px;
+}
+.footer-copyright{
+    text-align: center;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: #800080;
+    color : white;
+}
+
+
+#about-us{
+    padding: 30px;
+}
+
+#about-us{
+    font-size: 1.15rem;
+}
+
+.about-us-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 30px;
+    align-items: center;
+}
+
+#about-us .container{
+    padding: 30px;
+    width: 40%;
+    height: inherit;
+}
+
+.about-us-nav{
+    background-color:white;
+    border-radius: 8px;
+    color: black;
+}
+.nav-tabs .nav-link{
+    color: black;
+    margin-right: 10px;
+}
+
+.nav-tabs .nav-link:focus , .nav-tabs .nav-link:hover{
+    background-color: transparent;
+    color: inherit;
+}
+.nav-tabs .nav-link.active {
+background-color: #800080;
+color: white;
+border-color: yellow;
+}
+@media only screen and (max-width: 850px) and (min-width : 300px ){
+    footer .row{
+        text-align: -webkit-center;
+    }  
+    .about-us-outer , #about-us .container{
+
+    width: 95%;
+    margin: auto 0px;
+    padding: 5px;
+} 
+#about-us{
+    padding: 0;
+}
+}
+
+
+/* syed javith footer and about us  */
