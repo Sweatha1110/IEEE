@@ -4,6 +4,10 @@ body
     font-family: 'Outfit', sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
 /* HOME SECTION */
 
 #home
@@ -145,7 +149,15 @@ footer{
 }
 
 
-.about-us-container{
+#about-us{
+    padding: 30px;
+}
+
+#about-us{
+    font-size: 1.15rem;
+}
+
+.about-us-outer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,12 +165,14 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    margin: 30px;
     align-items: center;
 }
 
-.about-us-container .container{
+#about-us .container{
     padding: 30px;
     width: 40%;
+    height: inherit;
 }
 
 .about-us-nav{
@@ -184,11 +198,15 @@ border-color: yellow;
     footer .row{
         text-align: -webkit-center;
     }  
-    .about-us-container .container{
+    .about-us-outer , #about-us .container{
 
-    width: 90%;
+    width: 95%;
     margin: auto 0px;
+    padding: 5px;
 } 
+#about-us{
+    padding: 0;
+}
 }
 
 
