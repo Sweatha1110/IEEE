@@ -1,0 +1,343 @@
+  
+  body
+  {
+    overflow-x: hidden;
+    background-color: #ceccc8;
+
+  }
+
+  body
+{
+    overflow-x: hidden;
+    font-family: 'Outfit', sans-serif;
+    background-image: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    text-align: center;
+}
+
+/* NAVBAR */
+
+.clg-logo
+{
+    width: 150px;
+    height: auto;
+}
+
+nav
+{
+    background-color: #3c0847;
+    color: white;
+}
+
+.dropdown-item
+{
+    text-align: center;
+    color: white;
+}
+
+
+.navbar-collapse
+{
+    flex-grow: 0;
+}
+
+.navbar-toggler
+{
+    background-color: white;
+}
+
+.nav-link  
+{
+    margin: 0 1.15rem 0 1.15rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+}
+.nav-link:hover 
+{  
+    color: yellow;
+}
+
+.navbar-nav .nav-link.show 
+{
+    color: white;
+}
+
+.dropdown-menu
+{
+    background-color: #0B0F3E;
+}
+
+
+.cse-section
+{
+  margin-top: 5rem;
+  color: white;
+}
+.cse-section h3{
+ 
+  color: darkcyan;
+  font-size: 4rem;
+}
+#chapter
+{
+  color: white;
+  margin-top: 8rem;
+}
+  
+  .card-container{
+    width:100;
+  }
+
+   /* vision and mission  */
+   .vm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+.lead
+{
+  text-align: justify;
+  line-height: 2;
+}
+
+
+
+   .card-mission ,   .card-vision
+  {
+    width: 60%;
+    line-height: 2;
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border:3px solid;
+    border-radius:10px;
+    height: auto;
+    margin: 10px;
+    margin-top: 2rem;
+  }
+  
+/* vision */
+  
+  .vision
+  {
+    align-items: center;
+   
+  }
+  /* mission */
+  .mission
+  {
+    align-items: center;
+  }
+  .card-vision:hover{
+    box-shadow: 5px 5px 10px rgba(226, 223, 223, 0.874);
+  
+  }
+  .card-mission:hover{
+    box-shadow: 5px 5px 10px rgba(226, 223, 223, 0.874);
+   
+  }
+  /* members card */
+  .mem-heading
+{
+  font-size: 1.5rem;
+}
+  .mem-card {
+    max-width: 500px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 3rem;
+    color : white;
+    background-color: #0B0F3E;
+    transition: box-shadow 0.3s; 
+  }
+  
+  .card-text {
+    color: white;
+  }
+  .mem-card:hover
+  {
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+ 
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  transform: translateY(-5px); 
+  transition: box-shadow 0.3s, transform 0.3s; 
+}
+
+  .card-container
+  {
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+  }
+  
+.card-text {
+  background-color:#2d315f;
+  border-radius: 0.50rem;
+}
+  .card h4
+  { 
+    
+    font-size: 1rem;
+    line-height: 1.2;
+    font-style: bold;
+  }
+  /* Override Bootstrap's margin for .counts */
+#counter-section.counts {
+  margin: 0;
+  padding: 7%;
+}
+
+
+
+
+  /* counting numbers */
+  .counts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .count-item {
+  text-align: center;
+  padding: 2%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid;
+  border-color: #fff;
+  margin-top: 2rem;
+  }
+  .counts h3{
+    font-size: 2rem;
+  }
+  .count {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: block;
+  }
+/* FOOTER */
+
+footer
+{
+    padding: 1% 5%;
+    font-size: 1.25rem;
+    background-color: #0B0F3E;
+    color : white;
+}
+
+.footer-heading
+{
+    margin-top: 1.25rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.creators
+{
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.icons a    
+{
+    text-decoration: none;
+    margin: 0 .75rem;
+}
+
+.icons
+{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.copyrights
+{
+    text-align: center;
+}
+
+.footer-hr{
+    width: 40%; 
+     border-bottom: 2px solid #FFDF00;
+     opacity: 1;
+     border-top: 0;
+}
+
+@media screen and (max-width:994px) 
+{
+    .navbar-nav
+    {
+        margin-top: 1rem;
+        width: 15rem;
+        height: 25rem;
+        border-radius: 2rem;
+        background-color:#0B0F3E;
+        position: absolute;
+        right: 0;
+        text-align: center;
+    }    
+
+}
+
+
+
+@media only screen and (max-width: 850px) and (min-width : 300px ){
+    footer .row{
+        text-align: -webkit-center;
+    }  
+}
+
+
+@media screen and (max-width:900px) 
+    {
+        .clg-logo
+        {
+            width: 150px;
+        }    
+    }
+@media (max-width:994px),(min-width:280px)
+{
+  .card-vision,.card-mission{
+  
+      width: 18.75rem;
+      height:auto;
+    
+  }
+}
+@media (max-width:280px)
+{
+  .card-vision,.card-mission
+  {
+ width: 250px;
+ height: auto;
+}
+}
+@media(min-width:994px)
+{
+  .card-vision,.card-mission{
+    width: 40rem;
+    height:25rem;
+  }
+
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
